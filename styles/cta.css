@@ -1,0 +1,26 @@
+.cta-wrapper {
+    background-color: #f7f7f7;
+    padding: 64px 0;
+}
+
+.cta-wrapper .container .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-wrapper .container .cta h3 {
+    color: #373737;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.cta-wrapper .container .cta button {
+    padding: 14px 32px;
+    background-color: #ef476f;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
