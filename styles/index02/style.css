@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "header.css";
 @import "hero.css";
+@import "about-us.css";
 
 body {
   font-family: "Khula", sans-serif;

@@ -1,0 +1,26 @@
+.container .aboutus {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .aboutus .right {
+  width: 45%;
+}
+
+.container .aboutus .right h2 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #373737;
+  padding-bottom: 30px;
+}
+
+.container .aboutus .right p {
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.8;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
