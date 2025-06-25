@@ -1,0 +1,63 @@
+.pricing-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.pricing-wrapper .price-box {
+  width: 33.33%;
+  border: 1px solid #f9f9f9;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.pricing-wrapper .price-box .price-box-header {
+  background-color: #fbfbfb;
+  padding: 30px 0;
+}
+
+.pricing-wrapper .price-box .price-box-header h3 {
+  font-size: 20px;
+  color: #373737;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.pricing-wrapper .price-box .price-box-header h2 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: -10px;
+  color: linear-gradient(to top, #4481eb, #04befe);
+}
+
+.pricing-wrapper .price-box .price-box-header p {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 300;
+}
+
+.pricing-wrapper .price-box .price-box-body {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.pricing-wrapper .price-box .price-box-body ul li {
+  list-style: none;
+  margin-bottom: 15px;
+  font-size: 17px;
+  color: #999999;
+  font-weight: 300;
+}
+
+.pricing-wrapper .price-box .price-box-footer button {
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  background-color: #2ecb71;
+  cursor: pointer;
+}
+
+.pricing-wrapper .price-box:hover .price-box-header h3,
+.pricing-wrapper .price-box:hover .price-box-header p {
+  color: red;
+}
