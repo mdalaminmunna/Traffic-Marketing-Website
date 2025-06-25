@@ -1,0 +1,56 @@
+.header {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.logo {
+  width: 25%;
+}
+
+.nav-area {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: start;
+}
+
+.nav-area a {
+  display: inline-block;
+}
+
+.nav-area ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 15px;
+}
+
+.nav-area ul li a:link {
+  color: #888888;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-area ul li a:visited {
+  color: #888888;
+}
+
+.nav-area ul li a:hover {
+  color: #06d6a0;
+}
+
+.nav-area ul li a:active {
+  color: #888888;
+}
+
+button {
+  padding: 14px 32px;
+  background-color: #06d6a0;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+}

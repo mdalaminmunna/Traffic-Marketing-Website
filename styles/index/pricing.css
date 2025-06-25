@@ -1,0 +1,64 @@
+.pricing-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.pricing-wrapper .pricing-item {
+    width: 33.33%;
+    border: 1px solid #f3f3f3;
+    border-radius: 3px;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.pricing-wrapper .pricing-item h3 {
+    font-size: 20px;
+    color: #373737;
+    font-weight: normal;
+}
+
+.pricing-wrapper .pricing-item h4 {
+    font-size: 50px;
+    color: #ef476f;
+    font-weight: normal;
+    padding-top: 5px;
+    margin-bottom: -12px;
+}
+
+.pricing-wrapper .pricing-item p {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 300;
+}
+
+.pricing-wrapper .pricing-item .horizontal-line {
+    margin: 30px 48px 45px 48px;
+    border: 1px solid #f6f6f6;
+}
+
+.pricing-wrapper .pricing-item ul li {
+    list-style: none;
+    margin-bottom: 14px;
+    font-size: 17px;
+    color: #999999;
+    font-weight: 300;
+}
+
+.pricing-wrapper .pricing-item a {
+    display: inline-block;
+    padding: 18px 36px;
+    background-color: #ef476f;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.pricing-wrapper .pricing-item:hover,
+.pricing-wrapper .pricing-item:hover .horizontal-line {
+    border-color: #ef476f;
+}

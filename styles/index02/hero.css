@@ -1,0 +1,93 @@
+.hero {
+  position: relative;
+}
+
+.hero .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero img {
+  width: 100%;
+  height: 760px;
+  object-fit: cover;
+}
+
+.hero .container .left {
+  position: absolute;
+  top: 265px;
+  bottom: 248px;
+  width: 27%;
+}
+
+.hero .container .left h2 {
+  font-size: 50px;
+  font-weight: normal;
+  color: white;
+  line-height: 1;
+}
+
+.hero .container .left p {
+  padding-top: 20px;
+  font-size: 18px;
+  color: white;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.hero .container .right {
+  position: absolute;
+  top: 100px;
+  bottom: 120px;
+  text-align: center;
+}
+
+.hero .container .right .card {
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  align-items: center;
+  padding: 40px 50px;
+  border-radius: 3px;
+  box-shadow: 10px 10px 0 0 #669aee;
+}
+
+.hero .container .right .card h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.hero .container .right .card p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #999999;
+  padding-bottom: 55px;
+}
+
+.hero .container .right .card form input {
+  width: 298px;
+  height: 42px;
+  margin-bottom: 24px;
+}
+
+.hero .container .right .card form input[type="text"],
+.hero .container .right .card form input[type="email"] {
+  padding-left: 16px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  outline: none;
+}
+
+.hero .container .right .card form input::placeholder {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 300;
+}
+
+.hero .container .right .card form button {
+  margin-top: 25px;
+  /* padding-left: -10px;
+  padding-right: -10px; */
+  padding: 16px 22px;
+}
