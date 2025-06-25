@@ -1,0 +1,37 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  margin-bottom: 120px;
+}
+
+.services .box {
+  width: 23%;
+  background-color: #fbfbfb;
+  text-align: center;
+  padding: 86px 24px;
+  border-radius: 3px;
+}
+
+.services .box img {
+  margin-bottom: 15px;
+}
+
+.services .box h3 {
+  font-size: 18px;
+  color: #373737;
+  font-weight: normal;
+}
+
+.services .box:hover,
+.services .box:hover h3 {
+  transition: 0.3s;
+}
+
+.services .box:hover {
+  background-image: linear-gradient(to top, #4481eb, #04befe);
+}
+
+.services .box:hover h3 {
+  color: white;
+}
