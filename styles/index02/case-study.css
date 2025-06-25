@@ -10,7 +10,11 @@
 }
 
 .case-box-wrapper .case-box .case-box-hover {
-  background-image: linear-gradient(to top, #4481eb, #04befe);
+  background-image: linear-gradient(
+    to top,
+    rgba(68, 129, 235, 0.75),
+    rgba(4, 190, 254, 0.75)
+  );
   padding: 130px 110px;
   position: absolute;
   top: 0;
@@ -21,10 +25,6 @@
   transition: 0.3s;
   border-radius: 3px;
 }
-
-/* .case-box-wrapper .case-box img:hover {
-  opacity: 0.8;
-} */
 
 .case-box-wrapper .case-box:hover .case-box-hover {
   display: block;
@@ -43,4 +43,24 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+}
+
+.case-title-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.case-title-wrapper .case-title h2 {
+  font-size: 18px;
+  color: #373737;
+  font-weight: normal;
+}
+
+.case-title-wrapper .case-title p {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 300;
 }
