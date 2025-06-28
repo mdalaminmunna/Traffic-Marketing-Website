@@ -8,6 +8,8 @@
 @import "testimonial.css";
 @import "case-study.css";
 @import "pricing.css";
+@import "blog.css";
+@import "cfa.css";
 
 body {
   font-family: "Khula", sans-serif;

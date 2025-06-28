@@ -1,0 +1,41 @@
+.blog-wrapper {
+  margin-bottom: 120px;
+  display: flex;
+  align-content: space-between;
+  column-gap: 30px;
+}
+
+.blog-wrapper .blog-box {
+  width: 33.33%;
+  border: 1px solid #fbfbfb;
+  border-radius: 3px;
+  padding: 58px 26px;
+  border-radius: 3px;
+}
+
+.blog-wrapper .blog-box h2 {
+  font-size: 20px;
+  color: #373737;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+
+.blog-wrapper .blog-box p {
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.73;
+  padding-bottom: 20px;
+}
+
+.blog-wrapper .blog-box a {
+  display: inline-block;
+  font-size: 15px;
+  color: #06d6a0;
+  text-decoration: none;
+}
+
+.blog-wrapper .blog-box:hover {
+  background-color: #fbfbfb;
+  transition: 0.3s;
+}
